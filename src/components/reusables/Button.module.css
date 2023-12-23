@@ -1,0 +1,17 @@
+.button {
+  font-weight: bold;
+  font-size: 1em;
+  padding: 10px 20px 10px 20px; /* top, right, bottom, left*/
+  border: 2px solid var(--color-border--1);
+  /* background-color: var(--color-border--1); */
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;
+}
+
+.button:hover {
+  /* background-color: var(--color-button--hover--1); */
+  background-color: green;
+}

@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: pink; */
+  padding-left: 10rem;
+  padding-right: 10rem;
+  margin-bottom: 1rem;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  color: var(--color-light);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.nav li :hover {
+  color: var(--color-nav-hover--1); /* Change to the desired color on hover */
+}
